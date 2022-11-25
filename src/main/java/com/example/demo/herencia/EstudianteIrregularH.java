@@ -1,6 +1,6 @@
-package com.example.demo.tradicional;
+package com.example.demo.herencia;
 
-public class EstudianteIrregular extends Estudiante {
+public class EstudianteIrregularH extends EstudianteH {
 	private String CodeUCE;
 
 	public String getCodeUCE() {
@@ -10,10 +10,9 @@ public class EstudianteIrregular extends Estudiante {
 	public void setCodeUCE(String codeUCE) {
 		CodeUCE = codeUCE;
 	}
-	
 	protected Integer calcularPromedio() {
-		System.out.println("Promedio de 8");
-		return 8;
+		System.out.println("Promedio de 7");
+		return 7;
 	}
 	
 	
