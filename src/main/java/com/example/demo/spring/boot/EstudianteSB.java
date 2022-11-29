@@ -11,9 +11,10 @@ public class EstudianteSB {
 	public String toString() {
 		return "Estudiante [nombre=" + nombre + ", cedula=" + cedula + ", tipo=" + tipo + ", getTipo()=" + getTipo()
 				+ ", getNombre()=" + getNombre() + ", getCedula()=" + getCedula() + ", getClass()=" + getClass()
-				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
-		
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";	
 	}
+	
+	
 	public String getTipo() {
 		return tipo;
 	}
@@ -31,7 +32,6 @@ public class EstudianteSB {
 	}
 	public void setCedula(String cedula) {
 		this.cedula = cedula;
-	}
-	
-	
+	}	
 }
+

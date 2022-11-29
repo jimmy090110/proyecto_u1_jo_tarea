@@ -21,7 +21,7 @@ public class ExamenH {
 	
 	private void guardarFecha(ExamenH examenH) {
 		// TODO Auto-generated method stub
-		System.out.println("Se ha generado Fecha de Exámen");
+		System.out.println("Se ha generado la factura");
 		
 		System.out.println(examenH);
 		

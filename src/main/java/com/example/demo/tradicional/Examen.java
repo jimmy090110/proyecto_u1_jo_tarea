@@ -77,6 +77,11 @@ public class Examen {
 				+ ", getProfesor()=" + getProfesor() + ", getEstudiante()=" + getEstudiante() + ", getClass()="
 				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
+
+	public void agendar(String string, LocalDateTime of, int i, String string2, String string3) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 
